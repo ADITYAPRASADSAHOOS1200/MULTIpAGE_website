@@ -1,0 +1,91 @@
+*{
+    margin:0ch;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    height:100%;
+    width:100%;
+    background-color:#f0f4f5 ;
+    overflow-x:none;
+    background-image: url(stethoscope.png);
+ 
+}
+.navcontainer{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around; 
+    padding:1%;
+    
+    
+}
+#list1{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+   /* align-items: center; */
+   margin-top:5%;
+   text-shadow:0px 0px 1px black;
+   list-style: none;
+
+ 
+}
+#list1 a{
+    text-decoration: none;
+    font-size:1rem;
+    color:black;
+    font-weight:800 ;
+}
+#list1 a:hover{
+     
+   color:#22bc7e;
+   transition: all  0.5s linear 0s;
+}
+
+
+.logo img{
+    width:80%;
+    margin-top:1%;
+    margin-right:50% ;
+}
+.container{
+    text-align: center;
+    margin-top:15%;
+}
+
+
+
+.container h2{
+    color:#22bc7e; 
+    font-weight: 700;
+    font-size:2rem;
+    text-shadow: 0px 0px 1px black;
+}
+.container p{
+    font-weight: 700;
+    font-size:1.2rem;
+  
+}
+.maincont{
+  display:flex;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  margin-top:3%;
+}
+.box{
+  height:90px;
+  width:200px;
+  border:1px solid black;
+  text-align:center;
+  font-weight: 600;
+  padding: 1%;
+  font-size:1.2rem;
+  box-shadow:0px 0px 15px black;
+  border-radius: 12px;
+}
+.box h2{
+    color:#22bc7e; 
+    
+}

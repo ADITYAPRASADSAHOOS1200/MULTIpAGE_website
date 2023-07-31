@@ -89,3 +89,24 @@ body{
     color:#22bc7e; 
     
 }
+  bottomA {
+    width: 25px;
+    position: absolute;
+    right: 25px;
+  }
+  
+  stethospe {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+  }
+  
+  mou {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+  }
+  
